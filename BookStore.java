@@ -105,7 +105,7 @@ public void createConnection(){
 		try {
  
 			connection = DriverManager.getConnection(
-					"jdbc:oracle:thin:@localhost:1521:cse1", "nxr0659", "Apple2016");
+					"jdbc:oracle:thin:@localhost:1521:cse1", "?", "?");
  
 		} catch (SQLException e) {
 			System.out.println("Connection Failed! Check output console");
